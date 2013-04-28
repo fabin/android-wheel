@@ -7,6 +7,15 @@
 package kankan.wheel;
 
 public final class R {
+	public static final class id {
+		public static final int time2_monthday = 0x7f040014;
+		public static final int text = 0x7f040019;
+		public static final int time2_weekday = 0x7f040013;
+	}
+	public static final class layout {
+		public static final int time2_day = 0x7f030007;
+		public static final int wheel_text_item = 0x7f03000b;
+	}
 	public static final class drawable {
 		public static final int wheel_val = 0x7f020009;
 		public static final int wheel_bg = 0x7f020008;

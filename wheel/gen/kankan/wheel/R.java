@@ -14,4 +14,13 @@ public final class R {
         public static int wheel_bg=0x7f020000;
         public static int wheel_val=0x7f020001;
     }
+    public static final class id {
+        public static int text=0x7f040002;
+        public static int time2_monthday=0x7f040001;
+        public static int time2_weekday=0x7f040000;
+    }
+    public static final class layout {
+        public static int time2_day=0x7f030000;
+        public static int wheel_text_item=0x7f030001;
+    }
 }
