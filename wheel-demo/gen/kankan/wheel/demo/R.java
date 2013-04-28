@@ -23,16 +23,16 @@ public final class R {
         public static final int wheel_val=0x7f020009;
     }
     public static final class id {
-        public static final int ampm=0x7f040017;
+        public static final int ampm=0x7f040015;
         public static final int btn_mix=0x7f04000c;
         public static final int city=0x7f040001;
         public static final int country=0x7f040000;
         public static final int country_name=0x7f040003;
         public static final int day=0x7f040004;
         public static final int flag=0x7f040002;
-        public static final int hour=0x7f040015;
+        public static final int hour=0x7f040016;
         public static final int item=0x7f04000d;
-        public static final int mins=0x7f040016;
+        public static final int mins=0x7f040017;
         public static final int month=0x7f040005;
         public static final int passw_1=0x7f040007;
         public static final int passw_2=0x7f040008;
