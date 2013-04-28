@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wheel_lib_date_today">Toady</string>
+    <string name="wheel_lib_date_format_week">EEE</string>
+    <string name="wheel_lib_date_format_monthday">MMM d</string>
+    
+    <string-array name="wheel_lib_date_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>

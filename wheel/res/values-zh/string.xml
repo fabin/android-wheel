@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wheel_lib_date_today">今天</string>
+    <string name="wheel_lib_date_format_week">EEEEEE</string>
+    <string name="wheel_lib_date_format_monthday">MMMM dd</string>
+    
+    <string-array name="wheel_lib_date_ampm">
+        <item>上午</item>
+        <item>下午</item>
+    </string-array>
+</resources>
