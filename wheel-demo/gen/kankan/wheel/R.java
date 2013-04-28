@@ -8,9 +8,14 @@ package kankan.wheel;
 
 public final class R {
 	public static final class id {
-		public static final int time2_monthday = 0x7f040014;
-		public static final int text = 0x7f040019;
-		public static final int time2_weekday = 0x7f040013;
+		public static final int time2_monthday = 0x7f060014;
+		public static final int text = 0x7f060019;
+		public static final int time2_weekday = 0x7f060013;
+	}
+	public static final class string {
+		public static final int wheel_lib_date_today = 0x7f040000;
+		public static final int wheel_lib_date_format_monthday = 0x7f040002;
+		public static final int wheel_lib_date_format_week = 0x7f040001;
 	}
 	public static final class layout {
 		public static final int time2_day = 0x7f030007;
@@ -19,5 +24,8 @@ public final class R {
 	public static final class drawable {
 		public static final int wheel_val = 0x7f020009;
 		public static final int wheel_bg = 0x7f020008;
+	}
+	public static final class array {
+		public static final int wheel_lib_date_ampm = 0x7f050000;
 	}
 }

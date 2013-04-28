@@ -4,7 +4,7 @@
     android:layout_height="wrap_content" >
 
     <LinearLayout
-        android:layout_width="120dip"
+        android:layout_width="148dip"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="horizontal" >
