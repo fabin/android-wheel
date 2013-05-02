@@ -2,19 +2,12 @@ package kankan.wheel.demo;
 
 import java.util.Calendar;
 
-
 import kankan.wheel.widget.OnWheelChangedListener;
 import kankan.wheel.widget.WheelView;
-import kankan.wheel.widget.adapters.ArrayWheelAdapter;
-import kankan.wheel.widget.adapters.NumericWheelAdapter;
-
+import kankan.wheel.widget.adapters.DateArrayAdapter;
+import kankan.wheel.widget.adapters.DateNumericAdapter;
 import android.app.Activity;
-import android.content.Context;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
 public class DateActivity extends Activity {
     @Override
@@ -67,71 +60,4 @@ public class DateActivity extends Activity {
         day.setCurrentItem(curDay - 1, true);
     }
     
-    /**
-     * Adapter for numeric wheels. Highlights the current value.
-     */
-    private class DateNumericAdapter extends NumericWheelAdapter {
-        // Index of current item
-        int currentItem;
-        // Index of item to be highlighted
-        int currentValue;
-        
-        /**
-         * Constructor
-         */
-        public DateNumericAdapter(Context context, int minValue, int maxValue, int current) {
-            super(context, minValue, maxValue);
-            this.currentValue = current;
-            setTextSize(16);
-        }
-        
-        @Override
-        protected void configureTextView(TextView view) {
-            super.configureTextView(view);
-            if (currentItem == currentValue) {
-                view.setTextColor(0xFF0000F0);
-            }
-            view.setTypeface(Typeface.SANS_SERIF);
-        }
-        
-        @Override
-        public View getItem(int index, View cachedView, ViewGroup parent) {
-            currentItem = index;
-            return super.getItem(index, cachedView, parent);
-        }
-    }
-    
-    /**
-     * Adapter for string based wheel. Highlights the current value.
-     */
-    private class DateArrayAdapter extends ArrayWheelAdapter<String> {
-        // Index of current item
-        int currentItem;
-        // Index of item to be highlighted
-        int currentValue;
-        
-        /**
-         * Constructor
-         */
-        public DateArrayAdapter(Context context, String[] items, int current) {
-            super(context, items);
-            this.currentValue = current;
-            setTextSize(16);
-        }
-        
-        @Override
-        protected void configureTextView(TextView view) {
-            super.configureTextView(view);
-            if (currentItem == currentValue) {
-                view.setTextColor(0xFF0000F0);
-            }
-            view.setTypeface(Typeface.SANS_SERIF);
-        }
-        
-        @Override
-        public View getItem(int index, View cachedView, ViewGroup parent) {
-            currentItem = index;
-            return super.getItem(index, cachedView, parent);
-        }
-    }
 }
