@@ -23,7 +23,7 @@ public class DateNumericAdapter extends NumericWheelAdapter
 	{
 		super(context, minValue, maxValue);
 		this.currentValue = current;
-		setTextSize(16);
+		setTextSize(20);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class DateArrayAdapter extends ArrayWheelAdapter<String>
 	{
 		super(context, items);
 		this.currentValue = current;
-		setTextSize(16);
+		setTextSize(20);
 	}
 
 	@Override
